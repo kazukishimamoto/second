@@ -12,5 +12,7 @@ func main() {
 	switch os.Args[1] {
 	case "add":
 		fmt.Println(lhs + rhs)
+	case "sub":
+		fmt.Println(lhs - rhs)
 	}
 }
